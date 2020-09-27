@@ -1,0 +1,43 @@
+.picture_container {
+  display: grid;
+  border: 5px solid #2F80ED;
+}
+
+.picture_container--header {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  justify-content: space-evenly;
+  min-height: 56px;
+}
+
+.picture_container--caption {
+  align-self: center;
+  padding-left: 5px;
+}
+
+.picture_container--button {
+  justify-self: flex-end;
+  border-radius: 23px;
+  background: #FC6E51;
+  border: 2px solid #c0c0c0;
+  color: #ffffff;
+  cursor: pointer;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  margin: 5px;
+}
+
+.picture_container--button:hover {
+  background: #fb512e;
+}
+
+.picture_container--button:focus {
+  outline:0;
+}
+
+.picture_container--picture {
+  align-self: flex-end;
+  height: 400px;
+  width: 400px;
+}

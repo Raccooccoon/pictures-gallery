@@ -1,0 +1,40 @@
+.upload_container {
+  border: 5px solid #2F80ED;
+  width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.upload_container--group {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: space-around;
+}
+
+.upload_container--label {
+  color: 2px solid #333333;
+  font-size: 20px;
+  margin-right: 7px;
+  justify-self: flex-end;
+}
+
+.upload_container--input {
+  justify-self: flex-start;
+}
+
+.upload_container--button {
+  background-color: #2F80ED;
+  border: 2px solid #333333;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px calc(50% - 75px) 0;
+  width: 150px;
+  height: 35px;
+}
+
+.upload_container--button:hover {
+  background-color: #333333;
+  border: 2px solid #2F80ED;
+}

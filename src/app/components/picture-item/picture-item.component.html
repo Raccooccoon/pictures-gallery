@@ -1,0 +1,7 @@
+<div class="picture_container">
+  <div class="picture_container--header">
+    <div class="picture_container--caption">{{ pictureCaption }}</div>
+    <button class="picture_container--button" (click)="deletePicture(pictureId)">Delete</button>
+  </div>
+  <img [src]="pictureSrc" [alt]="pictureCaption" class="picture_container--picture">
+</div>

@@ -1,0 +1,7 @@
+<div class="upload_container">
+  <div class="upload_container--group">
+    <label class="upload_container--label">Select picture:</label>
+    <input #fileInput type="file" accept="image/*" class="upload_container--input" (input)="selectPicture($event)">
+  </div>
+  <button class="upload_container--button" (click)="uploadPicture(pictureData); fileInput.value = ''">Upload</button>
+</div>

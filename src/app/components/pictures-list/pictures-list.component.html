@@ -1,0 +1,7 @@
+<div class="pictures_list">
+  <app-picture-item
+  *ngFor="let picture of picturesList"
+  [pictureSrc]="picture.url"
+  [pictureCaption]="picture.caption"
+  [pictureId]="picture.id"></app-picture-item>
+</div>
