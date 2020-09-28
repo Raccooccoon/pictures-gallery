@@ -1,6 +1,7 @@
 .picture_container {
   display: grid;
   border: 5px solid #2F80ED;
+  margin: 5px;
 }
 
 .picture_container--header {

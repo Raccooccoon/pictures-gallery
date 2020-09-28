@@ -1,6 +1,6 @@
 .pictures_list {
   display: grid;
-  grid-template-columns: 410px 410px 410px;
-  justify-content: space-evenly;
+  grid-template-columns: 420px 420px 420px;
+  justify-content: center;
   min-width: 1260px;
 }

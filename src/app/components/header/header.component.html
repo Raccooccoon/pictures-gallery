@@ -1,1 +1,9 @@
-<div class="header">Pictures Gallery</div>
+<header class="header">
+  <div class="header--signin_field" *ngIf="user$ | async as user; else login">
+    <app-auth></app-auth>
+  </div>
+  <ng-template #login>
+    <button class="login_button" (click)="signIn()">Login with Google</button>
+  </ng-template>
+  <div class="header--caption">Pictures Gallery</div>
+</header>
